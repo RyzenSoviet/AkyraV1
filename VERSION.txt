@@ -1,0 +1,3 @@
+AKYRA V10 STABLE VOICE
+Base: AKYRA V9.5 STABLE
+Objetivo: mismo rendimiento + mas acciones por voz

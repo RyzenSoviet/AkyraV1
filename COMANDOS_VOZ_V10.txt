@@ -1,0 +1,75 @@
+AKYRA V10 // COMANDOS DE VOZ
+
+WAKE WORD
+- "Akyra" (tambien tolera Akira / A kira / Aquira)
+- Pulsa N para escuchar una orden sin decir el wake word esa vez.
+
+VENTANAS / WINDOWS
+- Akyra, cambia de ventana -> Alt+Tab
+- Akyra, siguiente ventana -> Alt+Tab
+- Akyra, muestra las ventanas -> Win+Tab
+- Akyra, muestra el escritorio -> Win+D
+
+EDICION
+- Akyra, copiar
+- Akyra, pegar
+- Akyra, cortar
+- Akyra, deshacer
+- Akyra, rehacer
+
+NAVEGADOR
+- Akyra, nueva pestana
+- Akyra, cierra pestana
+- Akyra, aumenta zoom
+- Akyra, reduce zoom
+- Akyra, restablece zoom
+- Akyra, actualiza
+- Akyra, atras / adelante
+- Akyra, pagina arriba / pagina abajo
+
+MOUSE
+- Akyra, clic
+- Akyra, doble clic
+- Akyra, clic derecho
+
+MULTIMEDIA
+- Akyra, pausa / reproduce
+- Akyra, siguiente cancion
+- Akyra, cancion anterior
+- Akyra, sube el volumen
+- Akyra, baja el volumen
+- Akyra, silencia
+
+TECLADO / NAVEGACION
+- Akyra, Enter
+- Akyra, Escape
+- Akyra, flecha izquierda / derecha / arriba / abajo
+
+MODOS
+- Akyra, modo mouse
+- Akyra, modo multimedia
+- Akyra, modo presentacion
+- Akyra, modo navegacion
+- Akyra, siguiente modo
+
+DISPOSITIVO
+- Akyra, computadora -> USB
+- Akyra, celular / Bluetooth -> BLE
+- Akyra, ambos -> USB + BLE
+
+SISTEMA AKYRA
+- Akyra, bloquea
+- Akyra, desbloquea
+- Akyra, cancela
+- Akyra, cambia las manos
+- Akyra, calibra
+- Akyra, ayuda
+- Akyra, oculta ayuda
+- Akyra, pantalla completa
+- Akyra, salir de pantalla completa
+- Akyra, nucleo / estado del sistema
+
+NOTA
+V10 usa el mismo pipeline de rendimiento de V9.5. Esta version agrega frases y
+acciones de voz sobre las acciones HID ya existentes; no cambia la arquitectura
+de camara/MediaPipe que hacia estable a V9.5.

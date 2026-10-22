@@ -1,0 +1,196 @@
+{
+  "camera_index": 0,
+  "serial_port": "AUTO",
+  "serial_baud": 115200,
+  "mirror_camera": true,
+  "swap_handedness": false,
+  "cursor_hand": "Left",
+  "action_hand": "Right",
+  "mouse_gain": 2.25,
+  "precision_gain": 0.55,
+  "dead_zone_px": 1.4,
+  "max_move": 62,
+  "cursor_smoothing_still": 0.82,
+  "cursor_smoothing_fast": 0.34,
+  "cursor_speed_reference": 28.0,
+  "max_camera_jump_px": 90.0,
+  "click_cooldown": 0.34,
+  "drag_hold_seconds": 0.52,
+  "pinch_press_ratio": 0.32,
+  "pinch_release_ratio": 0.4,
+  "pinch_exclusive_margin": 0.045,
+  "precision_ring_ratio": 0.33,
+  "scroll_gain": 0.12,
+  "scroll_max_step": 6,
+  "swipe_min_px": 78,
+  "swipe_min_speed": 155.0,
+  "swipe_direction_ratio": 1.35,
+  "swipe_cooldown": 0.72,
+  "three_hold_seconds": 0.52,
+  "radial_hold_seconds": 0.7,
+  "radial_select_radius_px": 92,
+  "radial_select_hold_seconds": 0.28,
+  "both_palms_lock_seconds": 0.9,
+  "fist_hold_seconds": 0.35,
+  "zoom_step_px": 34,
+  "lost_hand_grace_frames": 3,
+  "calibration_seconds": 2.2,
+  "auto_profiles": true,
+  "show_skeleton": true,
+  "show_debug": false,
+  "app_profiles": {
+    "chrome.exe": "BROWSER",
+    "msedge.exe": "BROWSER",
+    "firefox.exe": "BROWSER",
+    "powerpnt.exe": "PRESENT",
+    "spotify.exe": "MEDIA",
+    "vlc.exe": "MEDIA",
+    "code.exe": "EDIT"
+  },
+  "profiles": {
+    "MOUSE": {
+      "primary": "CLICK",
+      "secondary": "RIGHTCLICK",
+      "three": "ALT_TAB",
+      "swipe_left": "BACK",
+      "swipe_right": "FORWARD",
+      "swipe_up": "PAGE_UP",
+      "swipe_down": "PAGE_DOWN"
+    },
+    "BROWSER": {
+      "primary": "CLICK",
+      "secondary": "RIGHTCLICK",
+      "three": "ALT_TAB",
+      "swipe_left": "BACK",
+      "swipe_right": "FORWARD",
+      "swipe_up": "PAGE_UP",
+      "swipe_down": "PAGE_DOWN"
+    },
+    "MEDIA": {
+      "primary": "PLAY_PAUSE",
+      "secondary": "MUTE",
+      "three": "FULLSCREEN",
+      "swipe_left": "PREV_TRACK",
+      "swipe_right": "NEXT_TRACK",
+      "swipe_up": "VOL_UP",
+      "swipe_down": "VOL_DOWN"
+    },
+    "PRESENT": {
+      "primary": "RIGHT",
+      "secondary": "LEFT",
+      "three": "F5",
+      "swipe_left": "LEFT",
+      "swipe_right": "RIGHT",
+      "swipe_up": "PAGE_UP",
+      "swipe_down": "PAGE_DOWN"
+    },
+    "NAV": {
+      "primary": "ENTER",
+      "secondary": "ESC",
+      "three": "WIN_TAB",
+      "swipe_left": "LEFT",
+      "swipe_right": "RIGHT",
+      "swipe_up": "UP",
+      "swipe_down": "DOWN"
+    },
+    "EDIT": {
+      "primary": "CLICK",
+      "secondary": "RIGHTCLICK",
+      "three": "ALT_TAB",
+      "swipe_left": "UNDO",
+      "swipe_right": "REDO",
+      "swipe_up": "PAGE_UP",
+      "swipe_down": "PAGE_DOWN"
+    },
+    "MOBILE": {
+      "primary": "CLICK",
+      "secondary": "RIGHTCLICK",
+      "three": "PLAY_PAUSE",
+      "swipe_left": "BACK",
+      "swipe_right": "FORWARD",
+      "swipe_up": "VOL_UP",
+      "swipe_down": "VOL_DOWN"
+    }
+  },
+  "radial_menu": {
+    "MOUSE": {
+      "left": "COPY",
+      "right": "PASTE",
+      "up": "ALT_TAB",
+      "down": "WIN_D"
+    },
+    "BROWSER": {
+      "left": "BACK",
+      "right": "FORWARD",
+      "up": "NEW_TAB",
+      "down": "CLOSE_TAB"
+    },
+    "MEDIA": {
+      "left": "PREV_TRACK",
+      "right": "NEXT_TRACK",
+      "up": "VOL_UP",
+      "down": "VOL_DOWN"
+    },
+    "PRESENT": {
+      "left": "LEFT",
+      "right": "RIGHT",
+      "up": "F5",
+      "down": "ESC"
+    },
+    "NAV": {
+      "left": "BACK",
+      "right": "FORWARD",
+      "up": "WIN_TAB",
+      "down": "WIN_D"
+    },
+    "EDIT": {
+      "left": "UNDO",
+      "right": "REDO",
+      "up": "COPY",
+      "down": "PASTE"
+    },
+    "MOBILE": {
+      "left": "BACK",
+      "right": "FORWARD",
+      "up": "VOL_UP",
+      "down": "VOL_DOWN"
+    }
+  },
+  "single_hand_fallback": true,
+  "calibration_blocks_control": false,
+  "camera_width": 640,
+  "camera_height": 360,
+  "camera_fps": 60,
+  "camera_mjpg": true,
+  "default_target": "USB",
+  "profile_by_target": {
+    "USB": "AUTO",
+    "BLE": "MOBILE",
+    "BOTH": "AUTO"
+  },
+  "voice": {
+    "enabled": true,
+    "wake_words": [
+      "akyra",
+      "akira",
+      "a kira",
+      "aquira",
+      "a kyra"
+    ],
+    "model_path": "voice_models/vosk-model-small-es-0.42",
+    "sample_rate": 16000,
+    "device": null,
+    "command_timeout": 4.5,
+    "audio_feedback": true
+  },
+  "vision_width": 480,
+  "vision_height": 270,
+  "hud_fast": true,
+  "scan_grid": true,
+  "camera_warmup_frames": 3,
+  "ui_v10": {
+    "theme": "AK_CORE_ICE_LINE",
+    "boot_signature": true,
+    "scan_grid": true
+  }
+}
