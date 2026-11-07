@@ -1,4 +1,4 @@
-AKYRA V10 // STABLE VOICE
+AKYRA V1 // STABLE VOICE
 ==========================
 
 BASE
@@ -29,5 +29,4 @@ USO
 3. Ejecuta INSTALAR_V10.bat solo si faltan dependencias.
 4. Ejecuta INICIAR_V10.bat.
 
-No es necesario reflashear el ESP32 si el firmware que usabas con V9.5 ya
-aceptaba las acciones HID de V8.5/V9.
+Solo se usa trabajo de base porfavor dar creditos.
